@@ -15,12 +15,12 @@
   ],
   "routes": [
         {
-            "src": "server/",
+            "src": "/server",
             "dest": "server/firebase/database.js"
         },
         {
             "src": "/(.*)",
-            "dest": "/client"
+            "dest": "/client/$1"
         }
     ],
   "version": 2

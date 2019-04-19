@@ -2,6 +2,7 @@
   "name": "nextjs-with-firebase-ecomm",
   "version": "1.0.0",
   "license": "MIT",
+  "main": "server.js",
   "scripts": {
     "dev": "next",
     "now-build": "next build",
