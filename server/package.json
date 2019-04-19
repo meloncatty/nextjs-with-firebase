@@ -1,0 +1,8 @@
+{
+  "name": "nextjs-with-firebase-server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^5.10.0"
+  }
+}
