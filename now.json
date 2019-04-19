@@ -1,0 +1,10 @@
+{
+  "name": "nextjs-with-firebase",
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ],
+  "version": 2
+}
