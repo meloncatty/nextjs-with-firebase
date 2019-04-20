@@ -46,6 +46,5 @@ module.exports = withAssetRelocator({
     config.plugins.push(new webpack.DefinePlugin(env))
 
     return config
-  },
-  target: 'serverless'
+  }
 })
