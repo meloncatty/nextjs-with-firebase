@@ -1,5 +1,5 @@
 import * as constants from '../constants'
-import { loadFirebase } from '../../../server/firebase/database'
+import { loadFirebase } from '../firebase/database'
 
 export const getFoodSuccess = food => ({
   type: constants.GETFOODSUCCESS,
