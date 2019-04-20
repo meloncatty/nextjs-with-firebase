@@ -2,7 +2,7 @@
   "name": "nextjs-with-firebase",
   "builds": [
     {
-      "src": "package.json",
+      "src": "next.config.js",
       "use": "@now/next",
       "config": {
         "maxLambdaSize": "10mb"
