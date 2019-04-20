@@ -13,15 +13,5 @@
       "use": "@now/next"
     }
   ],
-  "routes": [
-        {
-            "src": "/server",
-            "dest": "server/firebase/database.js"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/client/$1"
-        }
-    ],
   "version": 2
 }
