@@ -2,7 +2,8 @@
   "name": "nextjs-with-firebase-server",
   "version": "1.0.0",
   "license": "MIT",
-  "devDependencies": {
-    "firebase": "4.8.0"
+  "dependencies": {
+    "firebase": "4.8.0",
+    "@zeit/webpack-asset-relocator-loader": "^0.4.1"
   }
 }

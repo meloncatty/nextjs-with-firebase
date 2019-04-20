@@ -1,5 +1,0 @@
-{
-  "dependencies": {
-    "@zeit/webpack-asset-relocator-loader": "^0.4.1"
-  }
-}
