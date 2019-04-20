@@ -9,5 +9,6 @@
       }
     }
   ],
+  "routes": [{ "src": "/", "dest": "/pages/index.js" }],
   "version": 2
 }
