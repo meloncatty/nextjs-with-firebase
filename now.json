@@ -2,23 +2,13 @@
   "name": "nextjs-with-firebase",
   "builds": [
     {
-      "src": "src/firebase/database.js",
-      "use": "@now/node"
+      "src": "next.config.js",
+      "use": "@now/next",
+      "config": {
+        "maxLambdaSize": "10mb"
+      }
     },
-    {
-      "src": "package.json",
-      "use": "@now/next"
-    }
+    { "src": "/static/*", "use": "@now/static" }
   ],
-  "routes": [
-        {
-            "src": "src/firebase/database.js",
-            "dest": "src/firebase/database.js"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-    ],
   "version": 2
 }
